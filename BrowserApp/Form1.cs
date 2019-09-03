@@ -47,6 +47,10 @@ namespace Web_Browser
         {
             webBrowser1.Navigate(new Uri(comboBox1.SelectedItem.ToString()));
         }
+         private void navigateToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            webBrowser1.GoHome();
+        }
 
     }
 }
